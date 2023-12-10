@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+   <item android:id="@+id/shareApp"
+       android:icon="@drawable/ic_share_button"
+       android:title="Share this app"/>
+    <item android:id="@+id/rateApp"
+        android:icon="@drawable/baseline_star_rate_outline_24"
+        android:title="Rate this app"/>
+    <item android:id="@+id/moreApps"
+        android:icon="@drawable/baseline_moreapps_24"
+        android:title="More app"/>
+<!--    <item android:id="@+id/follow"-->
+<!--        android:icon="@drawable/insta"-->
+<!--        android:title="Follow Crystal R Softwares"/>-->
+<!--    <item android:id="@+id/calisthenics"-->
+<!--        android:icon="@drawable/insta"-->
+<!--        android:title="Follow Calisthenics Methods"/>-->
+</menu>

@@ -1,0 +1,302 @@
+{
+  "project_info": {
+    "project_number": "319839614834",
+    "firebase_url": "https://graphica2-e58a5-default-rtdb.firebaseio.com",
+    "project_id": "graphica2-e58a5",
+    "storage_bucket": "graphica2-e58a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319839614834:android:95fa7e2f2722b4294b8feb",
+        "android_client_info": {
+          "package_name": "com.example.motivationmarathi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319839614834-ththceo3pg9irjqsmim2kg5u2g95abjj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARzpmhOUj4sE7WDL4K_y75R6atQVfJ5n8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319839614834-ththceo3pg9irjqsmim2kg5u2g95abjj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319839614834:android:1d9c6d1e88a2fec74b8feb",
+        "android_client_info": {
+          "package_name": "com.rameshwar.banner_cool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319839614834-ththceo3pg9irjqsmim2kg5u2g95abjj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARzpmhOUj4sE7WDL4K_y75R6atQVfJ5n8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319839614834-ththceo3pg9irjqsmim2kg5u2g95abjj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319839614834:android:2d2623cea70c12f24b8feb",
+        "android_client_info": {
+          "package_name": "com.rameshwar.marathimotivationalquotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319839614834-ththceo3pg9irjqsmim2kg5u2g95abjj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARzpmhOUj4sE7WDL4K_y75R6atQVfJ5n8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319839614834-ththceo3pg9irjqsmim2kg5u2g95abjj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-6972616661119579~1036268664"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319839614834:android:69c5d501d2265d6b4b8feb",
+        "android_client_info": {
+          "package_name": "com.rameshwar.motivationalquotesenglish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319839614834-ththceo3pg9irjqsmim2kg5u2g95abjj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARzpmhOUj4sE7WDL4K_y75R6atQVfJ5n8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319839614834-ththceo3pg9irjqsmim2kg5u2g95abjj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319839614834:android:16a2c4f197173b5b4b8feb",
+        "android_client_info": {
+          "package_name": "com.rameshwar.motivationmarathi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319839614834-ththceo3pg9irjqsmim2kg5u2g95abjj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARzpmhOUj4sE7WDL4K_y75R6atQVfJ5n8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319839614834-ththceo3pg9irjqsmim2kg5u2g95abjj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319839614834:android:18858ffb3178f6f54b8feb",
+        "android_client_info": {
+          "package_name": "com.rameshwar.quotesadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319839614834-ththceo3pg9irjqsmim2kg5u2g95abjj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARzpmhOUj4sE7WDL4K_y75R6atQVfJ5n8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319839614834-ththceo3pg9irjqsmim2kg5u2g95abjj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319839614834:android:4ec31afa39f76afa4b8feb",
+        "android_client_info": {
+          "package_name": "com.rameshwar.shinde.motivationalquotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319839614834-ththceo3pg9irjqsmim2kg5u2g95abjj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARzpmhOUj4sE7WDL4K_y75R6atQVfJ5n8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319839614834-ththceo3pg9irjqsmim2kg5u2g95abjj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319839614834:android:a5a042dfdf3ca5404b8feb",
+        "android_client_info": {
+          "package_name": "com.rameshwar.shinde.motivationalquoteshindi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319839614834-ththceo3pg9irjqsmim2kg5u2g95abjj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARzpmhOUj4sE7WDL4K_y75R6atQVfJ5n8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319839614834-ththceo3pg9irjqsmim2kg5u2g95abjj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319839614834:android:8a47332949bf462d4b8feb",
+        "android_client_info": {
+          "package_name": "com.rameshwar.shinde.motivationalquotesmarathi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319839614834-ththceo3pg9irjqsmim2kg5u2g95abjj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARzpmhOUj4sE7WDL4K_y75R6atQVfJ5n8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319839614834-ththceo3pg9irjqsmim2kg5u2g95abjj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319839614834:android:4c58957c5f1b55594b8feb",
+        "android_client_info": {
+          "package_name": "com.rameshwar.theuntoldlines"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319839614834-ththceo3pg9irjqsmim2kg5u2g95abjj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARzpmhOUj4sE7WDL4K_y75R6atQVfJ5n8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319839614834-ththceo3pg9irjqsmim2kg5u2g95abjj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

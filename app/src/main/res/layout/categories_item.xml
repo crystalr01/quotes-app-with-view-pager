@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="4dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:elevation="10dp"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:background="@color/white"
+        app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/back_outline"
+        android:gravity="center_horizontal">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:elevation="5dp"
+        android:id="@+id/categoryImage"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"/>
+
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="2dp"-->
+<!--        android:background="@color/dark_blue"-->
+<!--        android:layout_marginHorizontal="7dp"-->
+<!--        android:layout_marginTop="10dp"/>-->
+
+    <TextView
+        android:id="@+id/categoryName"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Category name"
+        android:textStyle="bold"
+        android:padding="3dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="14sp"/>
+
+    </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

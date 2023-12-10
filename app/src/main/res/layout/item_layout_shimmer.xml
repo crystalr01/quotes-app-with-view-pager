@@ -1,0 +1,91 @@
+<!-- item_layout_shimmer.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:elevation="10dp"
+        android:layout_margin="4dp"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:elevation="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="#c1c1c1"
+                android:backgroundTint="#c1c1c1"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="centerCrop"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:textStyle="bold"
+                android:padding="3dp"
+                android:background="#c1c1c1"
+                android:gravity="center"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:elevation="10dp"
+        android:layout_margin="4dp"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:elevation="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="#c1c1c1"
+                android:backgroundTint="#c1c1c1"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="centerCrop"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:textStyle="bold"
+                android:padding="3dp"
+                android:background="#c1c1c1"
+                android:gravity="center"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

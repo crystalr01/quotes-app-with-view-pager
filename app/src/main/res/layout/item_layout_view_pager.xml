@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@color/light_white">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="470dp"
+        android:background="#EBD3F1"
+        android:elevation="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/vpImageView"
+                android:layout_width="match_parent"
+                android:layout_height="390dp"
+                android:layout_centerInParent="true"
+                android:scaleType="fitXY"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/vpUserImage"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="50dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/userimage"
+                app:layout_constraintBottom_toBottomOf="@+id/space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:riv_corner_radius="90dp" />
+
+            <Space
+                android:id="@+id/space"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                app:layout_constraintBottom_toTopOf="@+id/linearLaout11"
+                app:layout_constraintTop_toBottomOf="@+id/vpImageView" />
+
+            <LinearLayout
+                android:id="@+id/linearLaout11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/space">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="&quot;"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="3dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/vpUserName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="User name"
+                    android:layout_margin="5dp"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="3dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/cardView"
+        android:background="@color/grey"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/vpDownload"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:textSize="10sp"
+            android:padding="5dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="5dp"
+            android:layout_marginVertical="9dp"
+            android:background="@drawable/back_round"
+            android:drawableLeft="@drawable/baseline_download_for_offline_24"
+            android:drawableTint="@color/white"
+            android:text="  download"/>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/vpShare"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:padding="5dp"
+            android:textSize="10sp"
+            android:textColor="@color/white"
+            android:layout_marginVertical="9dp"
+            android:background="@drawable/back_round"
+            android:drawableLeft="@drawable/ic_share_button"
+            android:drawableTint="@color/white"
+            android:text="share"/>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/vpNext"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:textSize="10sp"
+            android:layout_marginRight="5dp"
+            android:padding="5dp"
+            android:textColor="@color/white"
+            android:layout_marginVertical="9dp"
+            android:background="@drawable/whatsaa"
+            android:drawableLeft="@drawable/whats"
+            android:drawableTint="@color/white"
+            android:text="whatapp"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
